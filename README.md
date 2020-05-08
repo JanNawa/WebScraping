@@ -8,7 +8,7 @@ Each python file contains code for web scraping from different API and export da
 
 ## Files and External Data
 
-### extract_OMDb.py
+### [extract_OMDb.py](extract_OMDb.py)
 * Extract data from [OMDb API](http://www.omdbapi.com/) and save data in JSON format
 	* Key : specific keyword
 	* Value : list of movies that related to keyword
