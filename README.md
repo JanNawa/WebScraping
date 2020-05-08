@@ -14,7 +14,7 @@ Each python file contains code for web scraping from different API and export da
 	* Value : list of movies that related to keyword
 * Limitation: default number of retrieved data in OMDb API is 10
 
-### extract_news.py
+### [extract_news.py](extract_news.py)
 * Extract data from [news API](http://newsapi.org/) and save data in JSON format
 	* Key : specific keyword
 	* Value : list of news that related to keyword
@@ -22,7 +22,7 @@ Each python file contains code for web scraping from different API and export da
 	* removing "\r\n" from retrieved data
 * Limitation: default number of retrieved data in news API is 20
 
-### extract_twitter.py
+### [extract_twitter.py](extract_twitter.py)
 * Extract selected attributes from tweets using tweepy (Twitter API) and save data in JSON format. 
 The program will extract the data from REST API first. Then, it will extract the remaining data from Streaming API.
 The program set to retrieve around 3,000 tweets. Therefore, it set the threshold to 3,200 tweets to satisfy the requirement.
@@ -53,7 +53,7 @@ The number of retrieved records can be changed by setting "maxRecords" to desire
 	* Remove mention (@)
 	* Remove hashtag (#)
 	* Remove whitespace character (\n)
-### data folder
+### [data folder](data)
 	contains data sample in json file format from running extract_XXX.py
 * **movies.json** - data from extract_OMDb.py
 * **news_clean.json** - data from extract_news.py
