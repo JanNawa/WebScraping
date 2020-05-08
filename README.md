@@ -54,10 +54,10 @@ The number of retrieved records can be changed by setting "maxRecords" to desire
 	* Remove hashtag (#)
 	* Remove whitespace character (\n)
 ### [data folder](data)
-	contains data sample in json file format from running extract_XXX.py
-* **movies.json** - data from extract_OMDb.py
-* **news_clean.json** - data from extract_news.py
-* **twitter_clean.json** - data from extract_twitter.py
+contains data sample in json file format from running extract_XXX.py
+* [movies.json](data/movies.json) - data from extract_OMDb.py
+* [news_clean.json](data/news_clean.json) - data from extract_news.py
+* [twitter_clean.json](data/twitter_clean.json) - data from extract_twitter.py
 
 ### Dependencies
 
