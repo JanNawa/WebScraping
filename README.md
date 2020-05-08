@@ -6,7 +6,7 @@ Web scraping and save data in JSON format
 
 Each python file contains code for web scraping from different API and export data to JSON file.
 
-### Files and External Data
+## Files and External Data
 
 ### extract_OMDb.py
 * Extract data from [OMDb API](http://www.omdbapi.com/) and save data in JSON format
